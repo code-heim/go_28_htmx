@@ -1,0 +1,10 @@
+{{ define "notes/note.html"}}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="card">
+            <h5 class="card-header">{{ .Name }}</h5>
+            <div class="card-body">
+                <p class="card-text">{{ .Content }}</p>
+            </div>
+        </div>
+    </li>
+{{ end }}
